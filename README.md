@@ -18,29 +18,29 @@ Copie o arquivo .env.example e renomeie para .env, complementamos o ambiente var
 ## Google Sheets
 API do Planilhas Google primeiro. Acesse este <a href="https://console.developers.google.com/" target="_blank">website</a> e faça login com sua conta do Google que tenha uma planilha.
 
-1- Após o login, crie um projeto:
-    -CRIAR PROJETO
+1- Após o login, crie um projeto:<br>
+    -CRIAR PROJETO<br>
 
-2- Selecione o projeto criado e vamos ativar o Google Sheet Service.
-    -SELECIONE O PROJOETO CRIADO
-    -SELECIONE "ATIVAR APIS E SERVIÇOS"
+2- Selecione o projeto criado e vamos ativar o Google Sheet Service.<br>
+    -SELECIONE O PROJOETO CRIADO<br>
+    -SELECIONE "ATIVAR APIS E SERVIÇOS"<br>
 
-3- Pesquise o Planilhas Google e ative-o.
-    -NORMALMENTE ESTÁ "GOOGLE SHEETS API"
+3- Pesquise o Planilhas Google e ative-o.<br>
+    -NORMALMENTE ESTÁ "GOOGLE SHEETS API"<br>
 
-4- Crie as credenciais.
-    -SELECIONE "CREDENCIAIS"
-    -SLECIONE "CREATE CREDENTIALS"
-    -E SELECIONE A SEGUNDA OPÇÃO "CONTA DE SERVIÇO"
+4- Crie as credenciais.<br>
+    -SELECIONE "CREDENCIAIS"<br>
+    -SLECIONE "CREATE CREDENTIALS"<br>
+    -E SELECIONE A SEGUNDA OPÇÃO "CONTA DE SERVIÇO"<br>
 
-5- Após a credencial criada, precisamos gerar a chave privada.
-    -PROCURE O CAMPO "CONTAS DE SERVIÇO"
-    -VOCÊ VAI VER QUE VAI EXISTIR UMA CONTA CRIADA, NA MESMA LINHA VOCÊ VAI ENCONTRAR UM LOCAL CHAMADO "AÇÕES" E SELECIONE EDITAR
+5- Após a credencial criada, precisamos gerar a chave privada.<br>
+    -PROCURE O CAMPO "CONTAS DE SERVIÇO"<br>
+    -VOCÊ VAI VER QUE VAI EXISTIR UMA CONTA CRIADA, NA MESMA LINHA VOCÊ VAI ENCONTRAR UM LOCAL CHAMADO "AÇÕES" E SELECIONE EDITAR<br>
 
-6- Gere com a opção JSON.
-    -SELECINE A ABA "CHAVES""
-    -EM SEGUIDA "ADICIONAR CHAVE"
-    -SELECIONE "CRIAR NOVA CHAVE"
+6- Gere com a opção JSON.<br>
+    -SELECINE A ABA "CHAVES"<br>
+    -EM SEGUIDA "ADICIONAR CHAVE"<br>
+    -SELECIONE "CRIAR NOVA CHAVE"<br>
 
 No arquivo gerado, copie "client_email" para **GOOGLE_SHEETS_CLIENT_EMAIL**<br>
 e copie todo o conteúdo em "private_key" para **GOOGLE_SHEETS_PRIVATE_KEY** para arquivo .env
