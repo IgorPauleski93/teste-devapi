@@ -60,7 +60,7 @@ Os campos de colunas da planilha precisam ser escritos exatamente assim:
 
 Print
 
-Hubspot
+## Hubspot
 Vá para <a href="https://br.hubspot.com/" target="_blank">Hubspot</a> e faça o login
 
 Nas configurações, clique em Integrações, aplicativos privados e Criar aplicativo privado
