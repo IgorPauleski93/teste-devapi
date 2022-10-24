@@ -1,4 +1,4 @@
-# integração-javascript-devapi
+# javascript-devapi
 
 ## Características
 - Integração com Google Sheet
